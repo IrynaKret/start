@@ -11,15 +11,16 @@ public class Zadacha88a {
 		  int n = input.nextInt();
 		  int n2 = n * n;
 		  String num = String.valueOf(n2);
+		  boolean isdigit = false;
 		  
 		  for (int i = 0; i < num.length(); i++){
 			  char c = num.charAt(i);        
               if (c == '3') {
-            	  System.out.printf("There is digit 3 in the number %d", n2);
+				  isdigit = true;
             	  break;
               }
 		  }
-		System.out.printf("There is not digit 3 in the number %d", n2);
+		System.out.printf("There is digit 3 in the number %d: %b", n2, isdigit);
 	}
 
 }
