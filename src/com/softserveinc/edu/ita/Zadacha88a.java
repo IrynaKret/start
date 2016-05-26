@@ -18,9 +18,8 @@ public class Zadacha88a {
             	  System.out.printf("There is digit 3 in the number %d", n2);
             	  break;
               }
-              else
-            	  System.out.printf("There is not digit 3 in the number %d", n2);
 		  }
+		System.out.printf("There is not digit 3 in the number %d", n2);
 	}
 
 }
